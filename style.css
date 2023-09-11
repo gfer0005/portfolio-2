@@ -234,7 +234,7 @@ article p, .btn-bg {
 
 article,
 .wrapper h3{
-    margin-bottom: 1,5rem;
+    margin-bottom: 1.5rem;
 }
 
 article {
@@ -246,6 +246,13 @@ article p{
     flex-grow: 20;
     padding: 1rem;
 }
+
+.prix{
+    background-color: #5fb0f2;
+    color: white;
+    font-weight: 600;
+}
+
 
 footer{
     margin: 3rem 0;
