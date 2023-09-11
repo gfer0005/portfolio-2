@@ -7,6 +7,8 @@ const skillsBtn = document.getElementById("skills-btn")
 
 skills.style.display = "none";
 portfolio.style.display = "flex";
+skillsBtn.classList.remove("active-btn");
+portfolioBtn.classList.add("active-btn");
 
 
 portfolioBtn.addEventListener("click", (event) => {
