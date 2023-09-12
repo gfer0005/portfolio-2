@@ -31,8 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleThemeButton = document.getElementById("toggleTheme");
     const githublogo = document.getElementById("github");
     const instalogo = document.getElementById("instagram");
-    const themeIcon = document.querySelectorAll('img[alt="theme-icon"]');
-
 
     const lightlogos = {
         github: "/assets/github_light.png",
@@ -49,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function setTheme(isDark) {
         githublogo.src = isDark ? darklogos.githublogo : lightlogos.github;
         instalogo.src = isDark ? darklogos.instalogo : lightlogos.insta;
-        themeIcon.src = isDark ? darklogos.themeIcon : lightlogos.theme;
+        toggleThemeButton.src = isDark ? darklogos.themeIcon : lightlogos.theme;
     };
 
     toggleThemeButton.addEventListener("click", () => {
