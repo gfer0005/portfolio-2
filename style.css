@@ -111,6 +111,7 @@ article, .hero, .logo-container, .portfolio, .skills{
 
 .hero-info h1, h2{
     font-weight: 400;
+    color: var(--primary-text-color);
 }
 
 article p, .hero-info h2{
@@ -237,6 +238,11 @@ article,
     margin-bottom: 1.5rem;
 }
 
+.wrapper h3{
+    color: var(--primary-text-color);
+    /* text-decoration: underline; */
+}
+
 article {
     flex-wrap: wrap;
 }
@@ -256,6 +262,10 @@ article p{
 
 footer{
     margin: 3rem 0;
+}
+
+footer p{
+    color: var(--primary-text-color);
 }
 
 @media screen and (min-width: 900px){
