@@ -29,20 +29,21 @@ skillsBtn.addEventListener("click", (event) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const toggleThemeButton = document.getElementById("toggleTheme");
-    const themeIcon = document.querySelectorAll('img[alt="theme icon"]');
-    const githublogo = document.querySelectorAll('img[alt="github logo"]');
-    const instalogo = document.querySelectorAll('img[alt="instagram logo"]');
+    const githublogo = document.getElementById("github");
+    const instalogo = document.getElementById("instagram");
+    const themeIcon = document.querySelectorAll('img[alt="theme-icon"]');
+
 
     const lightlogos = {
-        github: "assets/github_light.png",
-        insta: "assets/instagram-light.png",
-        theme: "assets/theme_light.png"
+        github: "/assets/github_light.png",
+        insta: "/assets/instagram-light.png",
+        theme: "/assets/theme_light.png"
     }
 
     const darklogos = {
-        githublogo: "assets/github_dark.png",
-        instalogo: "assets/instagram-dark.png",
-        themeIcon: "assets/theme_dark.png"
+        githublogo: "/assets/github_dark.png",
+        instalogo: "/assets/instagram-dark.png",
+        themeIcon: "/assets/theme_dark.png"
     }
 
     function setTheme(isDark) {
