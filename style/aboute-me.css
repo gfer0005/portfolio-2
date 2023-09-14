@@ -1,0 +1,58 @@
+body {
+    background-color: var(--primary-bg-color);
+    font-family: var(--primary-font);
+}
+
+:root {
+    --primary-font: "Poppins", sans-serif;
+}
+
+/* NAVBAR STYLE */
+
+.navbar{
+    display: flex;
+}
+
+.navbar img{
+    width: 4rem;
+    margin-left: 1rem;
+}
+
+.about--me{
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 15rem;
+    border-radius: 20%;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ABOUT ME CONTENT */
+
+
+.about--me--content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article p{
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.about--me--content article{
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   margin: 1rem 1rem 1rem 1rem;
+}
+
+
+
