@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/style/contact.css">
+</head>
+<body>
+
+    <section class="contact-container">
+        <div class="title">
+            <h2>Contactez moi</h2>
+        </div>
+        <div class="formulaire">
+            <form action="/scripts/contact.php" class="contact-form" id="contactForm">
+                <input type="text" id="nom" name="nom" placeholder="Nom et Prénom" required>
+                <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+
+                <label id="occasionlabel" for="occasion">Type de fêtes : </label>
+                <select id="occasion" name="occasion">
+                <option value="mariage">Mariage</option>
+                <option value="bapteme">Baptême</option>
+                <!-- Ajoutez d'autres options au besoin -->
+                </select>
+
+                <label id="choix-pack" for="pack">Choisir un pack :</label>
+                <select id="choix" name="pack">
+                    <option value="mariage">Essentiel</option>
+                    <option value="bapteme">Unique</option>
+                    <option value="anniversaire">Complet</option>
+                    <option value="autre">Pro</option>
+                    <!-- Ajoutez d'autres options au besoin -->
+                </select>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -5,6 +5,11 @@ const portfolioBtn = document.getElementById("portfolio-btn")
 const skills = document.getElementById("skills")
 const skillsBtn = document.getElementById("skills-btn")
 const aboutmeBtn = document.getElementById("about-me-btn")
+const contactBtn = document.getElementById("contact-btn")
+
+contactBtn.addEventListener("click", () => {
+    window.location.href = "Pages/contact.html"
+})
 
 aboutmeBtn.addEventListener("click", () => {
     window.location.href = "Pages/about-me.html"
