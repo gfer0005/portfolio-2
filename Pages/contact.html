@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="/style/contact.css">
+    <script defer src="/scripts/contact.js"></script>
 </head>
 <body>
 
@@ -19,7 +20,7 @@
             <h2>Contactez moi</h2>
         </div>
         <div class="formulaire">
-            <form action="/contact.php" class="contact-form" id="contactForm">
+            <form action="contact.php" class="contact-form" id="contactForm" method="post">
                 <input type="text" id="nom" name="nom" placeholder="Nom et Prénom" required>
                 <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
 
@@ -41,7 +42,7 @@
 
                 <label for="message">Message :</label>
                 <textarea id="message" name="message" rows="4" required></textarea><br>
-                <input type="submit" value="Envoyer">
+                <input type="submit" value="Envoyer" id="envoyer-btn">
             </form>
         </div>
     </section>
