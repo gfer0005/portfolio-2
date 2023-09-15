@@ -4,6 +4,11 @@ const portfolio = document.getElementById("portfolio");
 const portfolioBtn = document.getElementById("portfolio-btn")
 const skills = document.getElementById("skills")
 const skillsBtn = document.getElementById("skills-btn")
+const aboutmeBtn = document.getElementById("about-me-btn")
+
+aboutmeBtn.addEventListener("click", () => {
+    window.location.href = "Pages/about-me.html"
+})
 
 skills.style.display = "none";
 portfolio.style.display = "flex";

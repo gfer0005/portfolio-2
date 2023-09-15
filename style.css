@@ -146,6 +146,7 @@ footer, .logo-container, .experience, .cta, .portfolio-skills, .btn-bg{
 
 .cta{
     margin-top: 1.2rem;
+    flex-wrap: wrap;
 }
 
 .cta, .btn-bg{
@@ -291,4 +292,6 @@ footer p{
         width: calc(48%);
         flex-wrap: wrap;
     }
+
+    
 }
