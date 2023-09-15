@@ -32,6 +32,39 @@ body {
     --btn-bg-light: var(--dark-btn-bg-light);
 }
 
+/* NAVBAR STYLE */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.navbar img{
+    width: 2.5em;
+    margin-left: 1rem;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 15rem;
+    border-radius: 20%;
+    /* box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4); */
+    box-shadow: 1px 1px 1rem var(--primary-text-color)
+}
+
+#toggleTheme{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
 .contact-container{
     display: flex;
     flex-direction: column;
@@ -39,7 +72,6 @@ body {
 }
 
 .title{
-    margin-top: 1.5rem;
     display: flex;
 
 }
