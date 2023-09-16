@@ -94,11 +94,13 @@ body {
 #nom{
     margin-bottom: 1rem;
     height: 2rem;
+    width: 97.5%;
 }
 
 #email{
     margin-bottom: 1rem;
     height: 2rem;
+    width: 97.5%;
 }
 
 #occasionlabel{
@@ -107,6 +109,7 @@ body {
 
 #occasion{
     height: 2.2rem;
+    width: 97.5%;
     margin-bottom: 1rem;
 }
 #choix-pack{
@@ -114,11 +117,13 @@ body {
 }
 
 #choix{
+    width: 97.5%;
     height: 2.2rem;
     margin-bottom: 1rem;
 }
 
 #message{
+    width: 97.5%;
     height: 15rem;
 }
 
