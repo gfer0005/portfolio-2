@@ -190,3 +190,16 @@ label{
 option{
     font-family: var(--primary-font);
 }
+
+
+
+/* CONFIRMATION STYLE */
+
+
+.confirmation{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
